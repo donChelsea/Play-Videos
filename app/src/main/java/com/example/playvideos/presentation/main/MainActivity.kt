@@ -1,4 +1,4 @@
-package com.example.playvideos
+package com.example.playvideos.presentation.main
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
