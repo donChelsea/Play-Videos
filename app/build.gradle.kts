@@ -58,9 +58,18 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    // Compose ViewModel
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
+
+    // Dagger/Hilt
     implementation("com.google.dagger:hilt-android:2.55")
     kapt("com.google.dagger:hilt-compiler:2.55")
 
+    // Extended icons
+    implementation("androidx.compose.material:material-icons-extended:1.7.8")
+
+    // Media3
     implementation("androidx.media3:media3-exoplayer:1.5.1")
     implementation("androidx.media3:media3-ui:1.5.1")
 }
