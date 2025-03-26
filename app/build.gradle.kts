@@ -65,6 +65,7 @@ dependencies {
     // Dagger/Hilt
     implementation("com.google.dagger:hilt-android:2.55")
     kapt("com.google.dagger:hilt-compiler:2.55")
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0")
 
     // Extended icons
     implementation("androidx.compose.material:material-icons-extended:1.7.8")
